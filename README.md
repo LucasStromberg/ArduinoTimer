@@ -3,6 +3,15 @@ A timer with an OLED display and capacitive touch buttons, powered by an Arduino
 
 More information: https://lucasstromberg.com. Contact me if you're interested in getting a pcb.
 
+## About
+This is an timer with an OLED display, powered by an Arduino Nano. The project uses the [Adafruit_SSD1306](https://github.com/adafruit/Adafruit_SSD1306) library for I2C communication and the [Adafruit-GFX](https://github.com/adafruit/Adafruit-GFX-Library) library for graphics. The timer uses two capacitive touch sensors to count how many minutes to count down from, and a piezo buzzer as alarm. It is powered by a power bank, for easy charging.
+
+The power bank I used turns off automatically after ~30s if no sufficient current is detected. Therefore I added an NPN transistor that is switched on for a 1s pulse by an Arduino GPIO pin every 15s, whereafter current is drained through the power bank over a low value resistor. This current drain pulse is enough for the power bank to be tricked into thinking it powers for example a cell phone, and therefore stays on.
+
+For the project I designed a pcb, manufactured by [jlcpcb](https://jlcpcb.com). I currently have 4 pieces left if anyone is interested.
+
+Lastly I enclosed the project in a 3D-printed case. While the stl-files are not yet uploaded I'll try to make this happen soon.
+
 ## Materials list
 * Arduino Nano
 * [OLED display (128x32)](https://www.ebay.com/itm/Mini-0-91-Zoll-OLED-SSD1306-Display-I2C-IIC-Arduino-Raspberry-128x32-weiss/253295920124?hash=item3af99d03fc:m:mUxZ2fwdW73AXJ_jtODLRbw)
