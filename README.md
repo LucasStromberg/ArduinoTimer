@@ -1,15 +1,27 @@
 # Arduino Timer
-A timer with an OLED display and capacitive touch buttons, powered by an Arduino Nano.
-
-At its current state the code is neither commented or structured very well, this might change in the future.
+A timer with an OLED display and capacitive touch buttons, powered by an Arduino Nano. At its current state the code is neither commented or structured very well, this might change in the future.
 
 More information: https://lucasstromberg.com. Contact me if you're interested in getting a pcb.
 
 ## Schematic and PCB
+I have included an image of the schematic, and gerber files to produce the pcb. I created the pcbs with Altium Designer for which I have now lost my previous student license, therefore it might be hard to gather the project files.
 
-## 3D-Printed case
+I currently have 4 pcbs left and would be more than happy to send one to you! Contact me on my website if you're interested and maybe we can work something out.
+
+The pcbs are printed with my previous website domain aprelga.com. Sadly there isn't an easy way to change this now... :)
+
+![schematic](https://raw.githubusercontent.com/LucasStromberg/ArduinoTimer/master/images/schematic.png)
+
+![pcb](https://raw.githubusercontent.com/LucasStromberg/ArduinoTimer/master/images/pcb.png)
+
+## 3D-Printed enclosure
+Unfortunately only gcode for an Ender 3 is available. I will include stl-files later.
+
+![enclosure](https://raw.githubusercontent.com/LucasStromberg/ArduinoTimer/master/images/enclosure.png)
 
 ## Code
+All code is available in an ino-file, and below.
+
 ```c
 //INCLUDE STUFF:
 #include <Adafruit_GFX.h>
