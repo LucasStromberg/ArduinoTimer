@@ -3,6 +3,17 @@ A timer with an OLED display and capacitive touch buttons, powered by an Arduino
 
 More information: https://lucasstromberg.com. Contact me if you're interested in getting a pcb.
 
+## Materials list
+* Arduino Nano
+* [OLED display (128x32)](https://www.ebay.com/itm/Mini-0-91-Zoll-OLED-SSD1306-Display-I2C-IIC-Arduino-Raspberry-128x32-weiss/253295920124?hash=item3af99d03fc:m:mUxZ2fwdW73AXJ_jtODLRbw)
+* Piezo buzzer
+* 2x [Capacitive touch sensor](https://www.ebay.com/itm/2PCS-TTP223B-Digital-Touch-Sensor-capacitive-touch-switch-module-for-Arduino/201540511776?hash=item2eecc02820:g:X6UAAOSwySVaCPkl)
+* 1k ohm resistor
+* <= 40 ohm resistor
+* NPN transistor
+* Slide switch
+* Power bank or similar. I bought [this](https://www.netonnet.se/art/tillbehor/mixmatch/laddarepowerbank/on-powerbank-2-000-turquoise/1003998.15565/?gclid=Cj0KCQjwmdzzBRC7ARIsANdqRRniaxQVUFS0DLIVKX4uaYxcSYzNm4bt1rQa84Pd-qSYBfvpNBXVrJQaAlqsEALw_wcB) in Sweden and pried it open. Fit perfectly for this project.
+
 ## Schematic and PCB
 I have included an image of the schematic, and gerber files to produce the pcb. I created the pcbs with Altium Designer for which I have now lost my previous student license, therefore it might be hard to gather the project files.
 
