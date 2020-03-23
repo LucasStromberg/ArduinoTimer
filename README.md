@@ -9,7 +9,7 @@ This is an timer with an OLED display, powered by an Arduino Nano. The project u
 
 The power bank I used turns off automatically after ~30s if no sufficient current is detected. Therefore I added an NPN transistor that is switched on for a 1s pulse by an Arduino GPIO pin every 15s, whereafter current is drained through the power bank over a low value resistor. This current drain pulse is enough for the power bank to be tricked into thinking it powers for example a cell phone, and therefore stays on.
 
-For the project I designed a pcb, manufactured by [jlcpcb](https://jlcpcb.com). I currently have 4 pieces left if anyone is interested.
+For the project I designed a pcb, that was later manufactured by [jlcpcb](https://jlcpcb.com). I currently have 4 pieces left if anyone is interested.
 
 Lastly I enclosed the project in a 3D-printed case. While the stl-files are not yet uploaded I'll try to make this happen soon.
 
